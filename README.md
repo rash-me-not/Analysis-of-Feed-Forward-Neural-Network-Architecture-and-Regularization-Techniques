@@ -1,8 +1,6 @@
 # Analysis-of-Feed-Forward-Neural-Network-Architecture-and-Regularization-Techniques
-Analysis of Feed-Forward Neural Network Architecture and Regularization Techniques
 
-Abstract
-In this paper, we are using the MIT/TIDIGITS corpus (Leonard and Doddington, 1993) to explore the performance and accuracy of different types of Feed Forward Neural Network Architectures. The different approaches currently utilized in the experiment include Regularization techniques like L1, L2 and Dropout, Dimensionality reduction techniques like PCA, and Deep vs Wide Neural Network architecture with different activation functions. 
+In this project, we are using the MIT/TIDIGITS corpus (Leonard and Doddington, 1993) to explore the performance and accuracy of different types of Feed Forward Neural Network Architectures. The different approaches currently utilized in the experiment include Regularization techniques like L1, L2 and Dropout, Dimensionality reduction techniques like PCA, and Deep vs Wide Neural Network architecture with different activation functions. 
 
 Introduction
 A common problem that arises while training huge neural network architectures is Overfitting, where the model tries to closely learn the extreme details in the training set and eventually ends up giving a huge generalization error. In this lab we are going to regularize the models in order to limit their capacity by adding parameter norm penalties or by using the Dropout technique. The parameter normalization techniques used in this paper are L1 and L2 Regularization which are discussed in the below section.
